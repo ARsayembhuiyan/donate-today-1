@@ -1,12 +1,12 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Slabo 27px", serif;
     margin: 0;
 }
 
 /* Header section */
 
 .header {
-    background-image: url(/picture/donation1.jpg);
+    background-image: url(/picture/donation4.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,13 +19,13 @@
     text-align: center;
     position: absolute;
     font-weight: 700;
-    font-size: 50px;
-    top: 35%;
+    font-size:35px;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     bottom: 60%;
-    color: #db1f1f;
+    color: #e70e0e;
 }
 
 .nav-title {
@@ -35,8 +35,8 @@
 }
 
 .nav-description {
-    font-size: 14px;
-    color: rgb(120, 201, 226);text-align: center;
+    font-size: 18px;
+    color: rgb(58, 98, 220);text-align: center;
 }
 
 .btn-primary {
@@ -52,7 +52,7 @@
     height: 64px;
     border: 0;
     color: #fff;
-    background: #9f0f0f;
+    background: #950303;
     text-decoration: none;
 }
 
@@ -73,7 +73,6 @@ main {
 
 .donate-title {
     margin-top: 130px;
-    display: flex;
     margin-bottom: 30px;
     align-items: center;
     margin-left: 400px;
@@ -136,7 +135,7 @@ text-decoration: none;
         mix-blend-mode:overlay;
 }
 
-.btn-button{display: flex;
+.btn-button{
     justify-content: center;
     align-items: center;
     font-weight: 700;
@@ -194,3 +193,50 @@ background: rgb(231, 226, 213);
     padding: 30px; 
 background: rgba(201, 57, 57, 0.1);
 }
+
+
+/* Their lives depend on your donation */
+    
+
+
+.depend-pic{display:flex ; margin-top: 20px; gap: 40px;margin-bottom: 20px;}
+
+ .pic{box-shadow:0px 1px 1px 1px; 
+    border-radius: 10px;
+    padding: 2px rgb(231, 226, 213);} 
+
+.depend-title{ margin-top: 80px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 40px;}
+
+    .depend-item { font-size: 24px;
+        margin-bottom: 0px;
+        align-items: center;
+        text-decoration:none ;
+        margin-bottom: 20px;} 
+
+        .btn-button-1{justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            font-size: 22px;
+            padding: 14px 30px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            border-radius: 5px;
+            height: 64px;
+            border: 0;
+            color: #fff;
+            background: #FF5959;;
+            text-decoration: none; }
+
+
+
+            .update{ text-align: center; margin-top: 100px; margin-bottom: 40px;}
+
+            .update-this{ font-size: 30px;margin-bottom: 0px;}
+
+            .update-description{ font-size:24px ; padding: 80px;}
